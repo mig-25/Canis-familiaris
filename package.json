@@ -1,0 +1,26 @@
+{
+  "name": "canis-familiaris",
+  "version": "1.0.0",
+  "description": "Dog breeds",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mig-25/Canis-familiaris.git"
+  },
+  "keywords": [
+    "Dogs",
+    "Breed"
+  ],
+  "author": "Sohail Hasware <saab.viggen@live.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mig-25/Canis-familiaris/issues"
+  },
+  "homepage": "https://github.com/mig-25/Canis-familiaris#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
