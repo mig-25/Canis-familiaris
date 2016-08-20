@@ -1,6 +1,4 @@
-{
-  "description": "A list of dog breeds.",
-  "dogs":
+
     [
       "Affenpinscher",
       "Afghan Hound",
@@ -457,4 +455,4 @@
       "Yorkshire Terrier",
       "Šarplaninac"
     ]
-}
+

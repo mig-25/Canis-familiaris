@@ -1,7 +1,21 @@
 var uniqueRandomArray = require('unique-random-array');
-var dogBreedNames = require('./dogs.json');
+var dogBreed = require('./dogs.json');
+
+var getRandomItem = uniqueRandomArray(dogBreed);
 
 module.exports = {
-    all: dogBreedNames,
-    random: uniqueRandomArray(dogBreedNames)
+    all: dogBreed,
+    random: uniqueRandomArray(dogBreed)
 };
+
+function random(number) {
+  if (number === undefined) {
+    return getRandomItem();
+  } else {
+    var randomItems = [];
+    for (var i = 0; i < number; i++) {
+      randomItems.push(getRandomItem());
+    }
+    return randomItems;
+  }
+}
