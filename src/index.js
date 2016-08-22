@@ -5,7 +5,7 @@ var getRandomItem = uniqueRandomArray(dogBreed);
 
 module.exports = {
     all: dogBreed,
-    random: uniqueRandomArray(dogBreed)
+    random: random
 };
 
 function random(number) {

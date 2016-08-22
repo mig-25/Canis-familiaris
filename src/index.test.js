@@ -25,6 +25,17 @@ describe('DogBreed-name', function () {
             var randomItem = dogBreed.random();
             expect(dogBreed.all).to.include(randomItem);
         });
+
+        
+        it('should return a an array of random items, if passed a number', function () {
+            var randomItems = dogBreed.random(3);
+            expect(randomItems).to.have.length(3);
+            randomItems.forEach(function(item){
+                expect(dogBreed.all).to.include(item);
+            });
+
+        });
+        
         
     });
     
