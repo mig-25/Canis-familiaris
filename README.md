@@ -5,7 +5,7 @@
 [![Codecov](https:/codecov.io/github/mig-25/Canis-familiaris/badge.svg?style=flat-square)](https://codecov.io/gh/mig-25/Canis-familiaris)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
-Generate random dog breed name
+Generate dog breed name or three random dog breeds
 
 ## Usage
 
