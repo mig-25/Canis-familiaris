@@ -7,7 +7,7 @@
 
 Generate dog breed name or three random dog breeds
 
-## Usage
+## Usage for random
 
 ```javascript
 var names = require('dogBreed');
